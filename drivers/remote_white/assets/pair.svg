@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="960px" version="1.1" viewBox="0 0 960 960" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <style type="text/css">.pair {
+    animation: press 10s infinite;
+    }
+
+    @keyframes press {
+    0%, 40%, 60%, 100% {
+    fill: rgba(255,255,255,0);
+    }
+    10%, 30% {
+    fill: #0078CC;
+    }
+    }
+    #led {
+    animation: blink 10s infinite;
+    }
+
+    @keyframes blink {
+    0%, 50%, 70%, 100% {
+    fill: rgba(255,255,255,0);
+    }
+    60% {
+    fill: #0078CC;
+    }
+    }</style>
+ <g id="com.eglo/drivers/remote" fill="none" fill-rule="evenodd">
+  <g transform="matrix(1.1542 0 0 1.1498 225.17 -72.497)">
+   <circle id="led" cx="220.78" cy="420.12" r="14.207" fill="#0074cc" stroke-width=".80616"/>
+   <circle cx="220.78" cy="420.12" r="14.207" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.6804"/>
+   <path d="m220.78 879c199.9 0 181.85-152.38 181.85-398.5s-8.1217-398.5-181.85-398.5c-173.72 0-181.85 152.38-181.85 398.5s-18.054 398.5 181.85 398.5z" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.361"/>
+   <circle class="pair" cx="220.78" cy="150.37" r="35.69" fill="#0074cc" stroke-width=".80616"/>
+   <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.6804">
+    <path id="Combined-Shape" d="m221.5 481.57c13.755 0 26.448-4.5474 36.657-12.221l51.43 51.469c-23.507 20.657-54.334 33.183-88.087 33.183-34.262 0-65.51-12.907-89.146-34.124l51.359-51.398c10.396 8.199 23.52 13.092 37.788 13.092zm133.5-61.069c0 33.843-12.593 64.745-33.349 88.275l-51.422-51.46c7.7452-10.236 12.34-22.989 12.34-36.814 0-14.284-4.904-27.423-13.12-37.824l51.359-51.398c21.257 23.645 34.192 54.923 34.192 89.221zm-233.75-88.162 51.43 51.469c-7.6902 10.216-12.249 22.922-12.249 36.694 0 13.312 4.2593 25.629 11.489 35.663l-51.504 51.543c-20.2-23.393-32.416-53.873-32.416-87.206 0-33.789 12.553-64.646 33.25-88.162zm100.25-45.338c33.297 0 63.747 12.19 87.131 32.351l-51.505 51.543c-10.027-7.214-22.33-11.463-35.626-11.463-13.809 0-26.548 4.5833-36.777 12.312l-51.422-51.46c23.521-20.716 54.392-33.282 88.199-33.282z"/>
+    <circle cx="220.78" cy="235.26" r="35.69"/>
+    <circle cx="220.78" cy="150.37" r="35.69"/>
+    <line x1="220.78" x2="220.78" y1="133.25" y2="163.97"/>
+   </g>
+   <circle class="pair" cx="217.94" cy="323.52" r="21.31" fill="#0074cc" stroke-width=".80616"/>
+   <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.6804">
+    <rect x="71.609" y="539.46" width="59.668" height="143.49" rx="21"/>
+    <rect x="150.69" y="576.4" width="59.668" height="143.49" rx="21"/>
+    <circle cx="217.94" cy="323.52" r="21.31"/>
+    <rect x="229.78" y="576.4" width="59.668" height="143.49" rx="21"/>
+    <rect x="308.86" y="539.46" width="59.668" height="143.49" rx="21"/>
+   </g>
+  </g>
+ </g>
+</svg>
