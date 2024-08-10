@@ -12,6 +12,12 @@ class EgloRgbBulb extends homey_zigbeedriver_1.ZigBeeLightDevice {
         if (homey_1.default.env.DEBUG === '1') {
             this.enableDebug();
         }
+        if (this.supportsHueAndSaturation) {
+            // Migrate added capability
+            if (!this.hasCapability('light_mode')) {
+                await this.addCapability('light_mode');
+            }
+        }
         await super.onNodeInit({ zclNode, node });
         if (!this.supportsColorTemperature && this.hasCapability('light_temperature')) {
             await this.removeCapability('light_temperature');
@@ -22,6 +28,9 @@ class EgloRgbBulb extends homey_zigbeedriver_1.ZigBeeLightDevice {
             }
             if (this.hasCapability('light_hue')) {
                 await this.removeCapability('light_hue');
+            }
+            if (this.hasCapability('light_mode')) {
+                await this.removeCapability('light_mode');
             }
         }
         if (this.hasCapability('onoff')) {
